@@ -8,8 +8,10 @@ class Produto
   end
 
   def adiciona_estoque(quantidade)
+   @estoque  = @estoque + quantidade
   end
 
   def remove_estoque(quantidade)
+    @estoque  = @estoque - quantidade
   end
 end
